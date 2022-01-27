@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+body, ul, li {margin:0; padding:0;}
+div {
+	width:960px;
+	margin:0 auto
+	}
+header {
+	background:#CCC;
+	padding-top:50px
+	}
+h1 {
+	text-align:center;
+	padding-bottom:50px
+	}
+.u_menu {
+	position: fixed; top:50px; right:0px;
+}
+nav {
+	width:700px;
+	margin:0 auto;
+	background:#333;
+	text-align:center;
+	border-radius:10px 10px 0 0
+	}
+nav a:link {
+	color:#0F0
+}
+nav ul {
+	padding:10px 0
+	}
+nav li {
+	display:inline;
+	color:#fff;
+	margin: 0 20px
+	}
+.d_color { color:#F00}
+main {
+	padding:30px
+}
+.movie_image {
+	margin-bottom:100px;
+	}
+h3 {
+	font-size:28px;
+	color:#900
+}
+footer{
+	background:#CCC;
+	padding: 50px 0;
+	text-align:center
+}
+footer button{
+	padding:10px 15px 10px 35px;
+	background:url(../images/ico_mail.png) #fff;
+	background-size: 15px;
+	background-repeat: no-repeat;
+	background-position: 15px 13px;
+	cursor:pointer;
+	}
+footer button:hover {
+	background-color:#C60;
+	color:#fff
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

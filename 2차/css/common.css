@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+body, h1, h2, h3, h4, ul, li, p, main, aside, footer, header {margin:0px; padding:0px; font-family: "Noto Sans", "Noto Sans CJK JP", sans-serif;}
+li {list-style: none;}
+div {width: 960px; margin: 0 auto;}
+header {height: 70px; position: relative; background: #eee}
+header h1 {position: absolute; top: 20px; left: 20px}
+header ul {position: absolute; top: 23px; right: 0px;}
+header ul li {display: inline; padding: 0 20px; color: #aaa; }
+aside {width: 240px; height: 800px; background: #ddd; float: left;}
+aside nav {margin: 30px;}
+aside nav li { margin-bottom: 10px; }
+aside nav li a {display: block; padding: 3px}
+main {width: 660px; height: 740px; background: #ccc; float: left; padding: 30px;}
+main .news {margin-bottom: 20px;}
+main .another_news{}
+.another_news article {width: 200px; float: left; margin: 0 10px}
+.another_news p { font-size: 11px }
+article h3 { font-size: 26px; color: #cc1254; margin-bottom: 20px;}
+footer {text-align: center; background: #aaa; margin-bottom: 100px; padding: 50px 0}

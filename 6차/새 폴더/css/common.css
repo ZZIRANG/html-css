@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+body, h1, h2, h3, h4, ul, li, p, main, aside, footer, header {margin:0px; padding:0px;}
+li {list-style: none;}
+div {}
+header nav li:hover { background:#eee;}
+aside nav li:hover { background:#eee; cursor:pointer}
+input:focus {outline:none;}
+footer {
+	width: 960px; margin: 0 auto;
+	text-align: center; 
+	background: #fff; 
+	padding: 50px 0;
+	margin-bottom: 50px;
+}

@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, h1, h2, h3, h4, ul, li, p, main, aside, footer, header {margin:0px; padding:0px;}
+li {list-style: none;}
+
+.whole-wrap {
+	width:1200px;
+	margin:0 auto;
+}
+
+
+header {
+	width:1200px;
+	height:300px;	
+}
+
+/*헤더 가장상단메뉴*/
+.join-unb {
+	font-size:12px;
+	float:right;
+	color:#666;
+	display:inline;
+	padding-top:12px;
+	margin-right:16px;
+}
+
+.join-unb li {
+	display:inline;
+	float:left;
+	padding-left:9px; padding-right:9px;
+}
+
+.join-unb li:hover {
+	cursor:pointer
+}
+
+/*헤더 메인*/
+
+.full-list:hover {
+	
+}
+
+button:hover {
+	cursor:pointer;
+}
+
+h1 {
+	padding-top:40px;
+	text-align:center;
+}
+
+
+.privacy li:hover {
+	cursor:pointer
+}
+
+input {
+	outline:none;
+}
+
+.gnb:hover {
+	cursor:pointer;
+}
+
+
+/*리모콘*/
+
+.remote {
+	border:1px solid #000; width:80px; height:330px; border-radius:50px; background:#000;
+	margin:100px auto auto 1220px; position:fixed;
+}
+
+.remote ul li {
+	text-align:center;
+	font-size:12px;
+	padding:15px 0;
+	color:#CCC;
+}
+
+.no-select {
+	border-radius:4px; width:20px; height:8px; background:#ccc; float:left; margin:0 5px
+}
